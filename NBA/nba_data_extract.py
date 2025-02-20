@@ -62,7 +62,7 @@ def fetch_all_live_games():
 
                 extracted_games.append(extracted_data)
 
-                # data load in db
+                # data load in database
                 insert_game_data(extracted_data)
 
             except Exception as e:
